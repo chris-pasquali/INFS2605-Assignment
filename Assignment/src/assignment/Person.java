@@ -10,11 +10,11 @@ package assignment;
  * @author chrispasquali
  */
 public class Person {
-    private String name;
-    private String gender;
-    private int memberNumber;
-    private double weight;
-    private double height;
+    String name;
+    String gender;
+    int memberNumber;
+    double weight;
+    double height;
     
     public Person (String name, String gender, int memberNumber, double weight, double height) {
         this.name = name;

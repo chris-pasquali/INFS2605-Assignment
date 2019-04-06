@@ -4,11 +4,11 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="assignment.DashboardController">
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="625.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="assignment.DashboardController">
     <stylesheets>
         <URL value="@dashboard.css" />
     </stylesheets>
    <children>
-      <Button id="logOut" layoutX="514.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #FF0000#FF2500; -fx-background-radius: 25; -fx-padding: 10;" styleClass="mainFxmlClass" stylesheets="@dashboard.css" text="Log out" />
+      <Button id="logOut" layoutX="514.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #FF0000#FF25000; -fx-background-radius: 25; -fx-padding: 10;" styleClass="mainFxmlClass" stylesheets="@dashboard.css" text="Log out" AnchorPane.bottomAnchor="351.0" AnchorPane.leftAnchor="514.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="13.0" />
    </children>
 </AnchorPane>
